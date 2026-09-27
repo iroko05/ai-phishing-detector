@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Секреты и локальные данные шлюза
+.env
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# IDE/OS
+.idea/
+.DS_Store
+Thumbs.db
