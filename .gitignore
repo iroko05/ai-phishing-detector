@@ -13,6 +13,8 @@ out/
 
 # Секреты и локальные данные шлюза
 .env
+.env.*
+!.env.example
 backend/data/
 *.db
 *.db-wal
